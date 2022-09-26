@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <header class="primary-header">
+    <div class="navigation-wrapper">
+      <a href="#" aria-label="company logo"><img src="./images/logo.svg" alt=""></a>
+      <!-- nav-button -->
+      <button class="nav-button" aria-label="open navigation menu">
+        <img src="./images/icon-menu.svg" alt="">
+      </button>
+      <nav class="primary-navigation">
+        <ul role="list" class="nav-list">
+          <li class="nav-item">Features</li>
+          <li class="nav-item">Company</li>
+          <li class="nav-item"><a href="">Careers</a></li>
+          <li class="nav-item"><a href="">About</a></li>
+        </ul>
+        <ul role="list" class="nav-list--secondary">
+          <li class="nav-item"><a href="">Login</a></li>
+          <li class="nav-item"><button class="btn" css-button-type="secondary">register</button></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- <section class="hero | flow">
+      <section class="hero-content" style="--flow-spacer: 3em">
+        <div class="container">
+          <div class="flow" style="--flow-spacer: 1em">
+            <h1 class="fs-xl fw-bold text-primary-800">Make remote work</h1>
+            <p class="text-primary-500 text-center">
+              Get your team in sync, no matter your location. Streamline processes,
+              create team rituals, and watch productivity soar.
+            </p>
+            <button class="btn" css-button-type="primary" style="--flow-spacer: 1.5em">Learn more</button>
+          </div>
+          <section class="clients">
+            <div class="flex">
+              <img src="./images/client-databiz.svg" alt="">
+              <img src="./images/client-audiophile.svg" alt="">
+              <img src="./images/client-meet.svg" alt="">
+              <img src="./images/client-maker.svg" alt="">
+            </div>
+        </div>
+        <div class="hero-image">
+          <div class="container">
+            <picture>
+              <source srcset="./images/image-hero-desktop.png" media="(min-width: 992px)">
+              <img src="./images/image-hero-mobile.png" alt="">
+            </picture>
+          </div>
+        </div>
+        </section>
+      </section> -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="container">
+          <div class="flex">
+            <div class="hero-image">
+              <picture>
+                <source srcset="./images/image-hero-desktop.png" media="(min-width: 992px)">
+                <img src="./images/image-hero-mobile.png" alt="">
+              </picture>
+            </div>
+            <div class="flow">
+              <h1 class="fs-xl fw-bold">Make remote work</h1>
+              <p class="text-primary-500">Get your team in sync, no matter your location. Streamline processes,
+                create team rituals, and watch productivity soar.</p>
+                <button class="btn" css-button-type="primary">Learn more</button>
+              </div>
+            </div>
+        </div>
+        <section class="clients" style="width: 100%;">
+            <div class="flex">
+              <!-- <img src="./images/client-databiz.svg" alt="" style="width: 25%;">
+              <img src="./images/client-audiophile.svg" alt="">
+              <img src="./images/client-meet.svg" alt="">
+              <img src="./images/client-maker.svg" alt=""> -->
+            </div>
+        </section>
+    </section>
+  </header>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
